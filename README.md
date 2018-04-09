@@ -28,9 +28,7 @@ Time spent: **X** hours spent in total
     - Tested in version: 4.1
     - Fixed in version: Not sure
   - GIF Walkthrough: <a href="https://imgur.com/evxzCOR"><img src="https://i.imgur.com/evxzCOR.gif" title="source: imgur.com" /></a>
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
+  - Steps to recreate: Run wpscan --url http://wpdistillery.vm/wp-login.php? --wordlist passwords --username admin. Make sure your wordlist is the wordlist you created. You need to also have it in the wpscan directory or direct it to the path it is located. 
 
 
 ## Assets
