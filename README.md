@@ -22,12 +22,13 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.1.19
   - GIF Walkthrough: <a href="https://imgur.com/lczgS4h"><img src="https://i.imgur.com/lczgS4h.gif" title="source: imgur.com" /></a>
   - Steps to recreate: Log into the user you created. Go to the wpdistillery site, post a comment and use the xss script <b onmouseover=alert('Hacked!')>click me!</b>. When the admin user logs in and sees this, when he roles the mouse over the "click me!" it'll pop up an error "Hacked". 
-1. (Required) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+1. WPScan Dictionary attack
+  - Summary: Using wpscan on an older version of wordpress to dictionary attack a WordPress site. The list is 500 words long and will have the correct password at the end of the list. 
+    - Vulnerability types: Dictionary attack
+    - Tested in version: 4.1
+    - Fixed in version: Not sure
+  - [ ] GIF Walkthrough: <a href="https://imgur.com/PNOUM"><img src="https://i.imgur.com/PNOUM.gif" title="source: imgur.com" /></a>
+  https://imgur.com/a/PNOUM
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
