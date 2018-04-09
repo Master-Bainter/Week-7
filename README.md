@@ -15,7 +15,7 @@ Time spent: **X** hours spent in total
     - Fixed in version: 4.1.19
   - GIF Walkthrough: <a href="https://imgur.com/Bg0UP7p"><img src="https://i.imgur.com/Bg0UP7p.gif" title="source: imgur.com" /></a>
   - Steps to recreate: Login to the user that you created. Go to the site and post a comment on the website with the Xss script. The xss script I used was IMG SRC="#" ONERROR="alert('Hacked')". So anytime the page loads an error pops up with "Hacked". 
-1. (Required) Vulnerability Name or ID
+1. XSS Script onmouseover error
   - Summary: Showing a xss scripting error for when your mouse goes over a link or something in the site. Just shows that there are vulnerabilities within the site.
     - Vulnerability types: XSS onmouseover error
     - Tested in version: 4.1
