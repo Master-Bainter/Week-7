@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.1
     - Fixed in version: 4.1.19
-  - GIF Walkthrough: https://imgur.com/Bg0UP7p
+  - GIF Walkthrough: <a href="https://imgur.com/Bg0UP7p"><img src="https://i.imgur.com/Bg0UP7p.gif" title="source: imgur.com" /></a>
   - Steps to recreate: Login to the user that you created. Go to the site and post a comment on the website with the Xss script. The xss script I used was IMG SRC="#" ONERROR="alert('Hacked')". So anytime the page loads an error pops up with "Hacked". 
 1. (Required) Vulnerability Name or ID
   - [ ] Summary: 
