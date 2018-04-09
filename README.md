@@ -27,8 +27,7 @@ Time spent: **X** hours spent in total
     - Vulnerability types: Dictionary attack
     - Tested in version: 4.1
     - Fixed in version: Not sure
-  - [ ] GIF Walkthrough: <a href="https://imgur.com/PNOUM"><img src="https://i.imgur.com/PNOUM.gif" title="source: imgur.com" /></a>
-  https://imgur.com/a/PNOUM
+  - GIF Walkthrough: <a href="https://imgur.com/evxzCOR"><img src="https://i.imgur.com/evxzCOR.gif" title="source: imgur.com" /></a>
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
